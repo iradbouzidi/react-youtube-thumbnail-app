@@ -1,4 +1,28 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header__logo {
+    height: 24px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.header__search {
+    flex: 1;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.header__input input{
+    padding: 7px !important;
+}
+
+.header__searchButton {
+    background-color: lightgray !important;
+    height: 30px;
 }
